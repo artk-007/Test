@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body,html{
+	width: 100%;
+	height: 100%;
+	/*font-family: 'Poppins', sans-serif;*/
+	/*background-color: #282F33;*/
+
+}
+a{
+	text-decoration: none;
+	font-size: 24px;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+th,td{
+	border: 1px solid grey;
+	padding: 20px 10px;
+	text-align: center;
+}
+.calendar__tb{
+
+	border: 3px solid grey;
+	width: 50%;
+	margin:0 auto;
+}
+
+.calendar__row{
+
+	
+}
+
+.calendar__head{
+
+ font-size: 28px;
+}
+.calendar__np{
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0) 49.9%, grey 49.9%, grey 60%, rgba(0, 0, 0, 0) 60%) 
+              fixed,
+              linear-gradient(45deg, grey 10%, rgba(0, 0, 0, 0) 10%) 
+              fixed;
+  background-size: 0.5em 0.5em
+}
+.calendar__weekend{
+	
+	color: #FF0800;
+}
+.daycal {
+	
+	color: #000 ;
+	
+	
+}
+
